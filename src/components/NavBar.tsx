@@ -5,11 +5,11 @@ import { useState } from "react";
 import Link from "next/link";
 import { motion } from "motion/react";
 import { slideInFromTop } from "@/lib/motion";
-
 export const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
     <div>
+      main
       <motion.div
         className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-4 sm:px-10"
         variants={slideInFromTop(1)}
@@ -43,7 +43,7 @@ export const Navbar = () => {
               <Link href="#skills" className="cursor-pointer">
                 CLUBS
               </Link>
-              <Link href="#coords" className="cursor-pointer">
+              <Link href="/Coordinators" className="cursor-pointer">
                 COORDS
               </Link>
               <Link href="#projects" className="cursor-pointer">
