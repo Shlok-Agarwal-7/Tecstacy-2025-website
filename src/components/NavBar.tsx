@@ -23,7 +23,7 @@ export const Navbar = () => {
             className="h-auto w-auto flex flex-row items-center"
           >
             <Image
-              src="/logo.jpeg"
+              src="/logo.png"
               alt="logo"
               width={50}
               height={50}
