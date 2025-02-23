@@ -1,12 +1,12 @@
 import Clubs from '@/components/Clubs';
+import Events from '@/components/Events';
 import Hero from '@/components/Hero'
-import {Navbar} from '@/components/NavBar'
 export default function Home() {
   return (
     <>
-    <Navbar/>
     <Hero/>
     <Clubs/>
+    <Events/>
     </>
   );
 }
