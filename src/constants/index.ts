@@ -17,6 +17,12 @@ export const logo_data = [
       Image: "/ieee.webp",
       width: 180,
       height: 180,
+    },
+    {
+      skill_name : "csi",
+      Image : "/csi.jpeg",
+      width: 100,
+      height: 100,
     }
   ];
   

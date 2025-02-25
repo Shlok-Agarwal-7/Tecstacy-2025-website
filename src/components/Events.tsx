@@ -13,6 +13,9 @@ const Events = () => {
         <ProjectCard src="/events/poster1.jpeg" />
         <ProjectCard src="/events/poster2.jpeg" />
         <ProjectCard src="/events/poster3.jpeg" />
+        <ProjectCard src="/events/poster4.png" />
+        <ProjectCard src="/events/poster5.png" />
+        <ProjectCard src="/events/poster6.png" />
       </div>
       
       {/* Register Button */}
